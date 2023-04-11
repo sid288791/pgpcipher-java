@@ -44,5 +44,4 @@ public class PgpcipherJavaApplication {
         String dec_output_file = "";
         FileUtils.writeByteArrayToFile(new File(dec_output_file),decData);
 	}
-
 }

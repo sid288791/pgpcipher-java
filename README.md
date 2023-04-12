@@ -1,9 +1,9 @@
-# Open PGP Cipher in python
+# Open PGP Cipher in java
 
 ### Steps to run the project
 * clone project
-    1. git clone https://github.com/sid288791/pgpcipher-py.git
-  2.  python setup.py install 
+    1. git clone https://github.com/sid288791/pgpcipher-java.git
+    2. ./gradlew clean build  
 * Goto main.py   
   - If you want to encrypt file provide below details
   

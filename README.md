@@ -10,9 +10,9 @@
         1. pgp_pub_key = ''    
         2. file_to_enc = ''     
         3. enc_output_file = '' 
-  - comment decryptByPrivKey function as below  
+  - comment decryptFile function as below  
   
-    1. //decryptByPrivKey(priv_key_file, passphrase, enc_file, output_file)
+    1. //decryptFile(priv_key_file, passphrase, enc_file, output_file)
   
   - If you want to decrypt file provide below details    
   
@@ -21,8 +21,8 @@
     3. enc_file = ''     
     4. dec_output_file 
     
-  - comment encByPubKey function as below    
-        1. //encryptByPubKey(pgp_pub_key, file_to_enc, output_file)
+  - comment encryptFile function as below    
+        1. //encryptFile(pgp_pub_key, file_to_enc, output_file)
 * run PgpcipherJavaApplication.java 
 
 # Export and Import pgp keys with GPG

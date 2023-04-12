@@ -4,7 +4,7 @@
 * clone project
     1. git clone https://github.com/sid288791/pgpcipher-java.git
     2. ./gradlew clean build  
-* Goto main.py   
+* Goto PgpcipherJavaApplication.java    
   - If you want to encrypt file provide below details
   
         1. pgp_pub_key = ''    
@@ -12,7 +12,7 @@
         3. enc_output_file = '' 
   - comment decryptByPrivKey function as below  
   
-    1.'#'decryptByPrivKey(priv_key_file, passphrase, enc_file, output_file)
+    1. //decryptByPrivKey(priv_key_file, passphrase, enc_file, output_file)
   
   - If you want to decrypt file provide below details    
   
@@ -22,8 +22,8 @@
     4. dec_output_file 
     
   - comment encByPubKey function as below    
-        1.'#'encryptByPubKey(pgp_pub_key, file_to_enc, output_file)
-* run main.py
+        1. //encryptByPubKey(pgp_pub_key, file_to_enc, output_file)
+* run PgpcipherJavaApplication.java 
 
 # Export and Import pgp keys with GPG
 
